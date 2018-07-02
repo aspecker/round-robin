@@ -1,10 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Hub from '../../pages/Hub';
 
-class App extends Component {
-  render() {
-    return <h1 className='banner'>Round Robin </h1>
-  }
-}
+const App = () => (
+  <Router basename = {process.env.PUBLIC_URL}>
+    <div>
+      <Switch>
+        <Route exact path = '/Hub' component = {Hub}/>
+      </Switch>
+    </div>
+  </Router>
+)
 
 export default App;
