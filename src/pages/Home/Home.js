@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
 import './Home.css';
 
@@ -13,7 +14,9 @@ class Home extends Component {
     }
     render () {
         return (
-            <Button />
+            <Link to ='/Hub'>
+                <Button text='Hub'/>
+            </Link>
         )
     }
 }
