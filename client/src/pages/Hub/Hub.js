@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+
 import Button from '../../components/Button'
+// import Auth from '../../components/Auth/Auth';
+
 import './Hub.css';
 
 const defaultState = {
@@ -11,12 +14,12 @@ class Hub extends Component {
     super(props)
     this.state = defaultState;
   }
+
   render () {
     return (
       <div>
         <h1> This is the hub</h1>
-        <Button text='Click' />
-        <Button text={`String`}/>
+        <Button text='Login'/>
       </div>
     )
   }
