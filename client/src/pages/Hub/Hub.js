@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Button from '../../components/Button'
+import { Button } from 'reactstrap';
 // import Auth from '../../components/Auth/Auth';
 
 import './Hub.css';
