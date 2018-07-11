@@ -15,7 +15,7 @@ class Home extends Component {
     render () {
         return (
             <Link to ='/Hub'>
-                <Button text='Hub'/>
+                <Button>Hub</Button>
             </Link>
         )
     }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import { Button } from 'reactstrap';
-// import Auth from '../../components/Auth/Auth';
+
 
 import './Hub.css';
 
@@ -16,10 +15,10 @@ class Hub extends Component {
   }
 
   render () {
+
     return (
       <div>
         <h1> This is the hub</h1>
-        <Button text='Login'/>
       </div>
     )
   }
